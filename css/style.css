@@ -1,0 +1,55 @@
+
+
+@keyframes efeito_scale{
+    0%{
+      transform: scale(0);
+    }
+    100%{
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes efeito_x{
+    0%{
+      transform: translateX(0);
+    }
+    100%{
+      transform: translateX(1);
+      opacity: 1;
+    }
+  }
+
+  .imgepisodio {
+    opacity: 0;
+    animation: efeito_scale 2.0s 0.5s forwards;  
+ 
+  }
+
+#titulo {
+    opacity: 0;
+    animation: efeito_x 2.0s 0.5s forwards;  
+}
+
+  h5 {
+    opacity: 0;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    text-align: left;
+    margin-top: 180px;
+    margin-left: 0px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px; 
+    text-align: left;
+}
+
+#moldurateste{
+    height: 50%;
+    width: 50%; 
+
+
+}
